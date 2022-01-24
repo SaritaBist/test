@@ -1,0 +1,300 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+:root{
+    --primary-color:#11aef7;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+   
+    background-color: var(--primary-color);
+    height:4vh;
+    position: sticky;
+    top:0px;
+
+}
+.header p
+{
+    color:white;
+}
+.contact
+{
+    display: flex;
+    align-items: center;
+   
+}
+.message
+{
+    display:flex;
+    margin-left: 200px;
+   
+
+}
+.call
+{
+    display: flex;
+    margin-left: 20px;
+ 
+    width:200px;
+}
+.icons
+{
+    margin-left: 600px;
+}
+.icons .socialicons
+{
+    margin:8px;
+    
+}
+.header .socialicons{
+    height:20px;
+    width:20px;
+    filter: invert(100%);
+}
+.navigation .logo{
+    height:40px;
+    width:200px;
+    margin-left: 200px;
+}
+
+.navigation
+{
+    display: flex;
+   
+    align-items: center;
+   background-color: rgba(228, 250, 250, 0.7);
+    height: 9.5vh;
+    position: sticky;
+    top:30px;
+    z-index: 135;
+    box-shadow: 2px 6px white;
+ 
+}
+.navigation ul
+{
+    display: flex;
+    margin-left: 50px;
+}
+.navigation ul li
+{
+    list-style: none;
+}
+.navigation ul li a
+{
+    text-decoration: none;
+    padding:30px;
+    color:black;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+input
+{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    height:40px;
+    width:180px;
+    color:white;
+    font-size: 16px;
+    border:0px;
+    margin-left: 30px;
+    z-index: 5;
+}
+
+.background
+
+{
+    height:20vh;
+    width:100vw;
+    background-color: rgb(245 205 211 );
+    
+    display: inline-block;
+  
+}
+.background p
+{
+    font-size: 2.5rem;
+    text-align: center;
+    color:black;
+    margin-top: 40px;
+
+}
+.why
+
+{
+    height:60vh;
+    width:40vw;
+   margin-top: 50px;
+   margin-left: 200px;
+}
+.img_para
+{
+    display: flex;
+   
+   
+}
+.heading_para
+{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.heading_para .third
+{
+    width:30vw;
+    font-size: 20px;
+}
+.medical
+{
+    color: var(--primary-color);
+}
+.our
+{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+    height:20vh;
+    width: 100vw;
+
+
+}
+.section
+{
+    background-color: rgb(216, 228, 238);
+    
+}
+.doctor1
+{
+    background-color: var(--primary-color);
+    width: 13.7vw;
+    margin-left: 30px;
+    border: 2px solid white;
+    color:white;
+    margin-left: 200px;
+
+}
+.doctor2
+{
+    background-color: var(--primary-color);
+    width: 13.7vw;
+    margin-left: 30px;
+    border: 2px solid white;
+    color:white;
+}
+.doctor3
+{
+    background-color: var(--primary-color);
+    width: 13.7vw;
+    margin-left: 30px;
+    border: 2px solid white;
+    color:white;
+}
+.doctor4
+{
+    background-color: var(--primary-color);
+    width: 13.7vw;
+    margin-left: 30px;
+    border: 2px solid white;
+    color:white;
+}
+.doctorpic
+{
+    display: flex;
+    margin-left: 220px;
+   
+}
+.doctor
+{
+    margin: 20px;
+    transition-property:all;
+    transition-duration: 2s;
+   
+    
+}
+.doctor:hover
+{
+    transform: scale(1.5);
+}
+.dname  
+{
+    text-align: center;
+    font-size: 26px;
+}
+.dposition
+{
+    text-align: center;
+    font-size: 20px;
+}
+footer
+{
+    background-color: rgb(20, 16, 16);
+    height: 40vh;
+
+    display: flex;
+}
+.discribtion
+{
+    width:20vw ;
+    
+    color:white;
+    margin-left: 260px;
+    margin-top: 60px;
+
+}
+.links
+{
+    color: white;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.contact-us
+{
+    color:white;
+    margin-left: 100px;
+    line-height: 1.5;
+    margin-top: 60px;
+}
+@media only screen and (max-width:1000px)
+{
+    .img_para
+    {
+        display: inline-block;
+    }
+    .third
+    {
+        width:1000px;
+        margin-left: 200px;
+    }
+    .doctorpic{
+         display:inline-block
+    }
+    .doctor
+    {
+       width:27.5vw;
+    }
+    .background{
+        width:50vw;
+        margin-left: 200px;
+    }
+    footer
+    {
+        display: inline-block;
+        height:100vh;
+        width:100vw;
+    }
+    .choos
+    {
+        margin-left: 80px;
+    }
+    .medical{
+        margin-left: 150px;
+    }
+}
